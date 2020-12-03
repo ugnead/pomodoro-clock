@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css');
+
+body {
+  height: 100vh;
+}
+
+.wrapper {
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.box {
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  max-width: 700px;
+}
+
+.timer-container {
+  line-height: 10px;
+}
+.clock-container {
+  line-height: 65px;
+  margin: 40px;
+}
+
+.timer-container h1 {
+  font-size: 20px;
+}
+
+.timer-container button,
+.clock-container button {
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background: #11998e;
+  color: white;
+  font-size: 14px;
+  margin: 0px 10px 40px 10px;
+  width: 28px;
+  height: 28px;
+}
+
+.clock-container button {
+  border-radius: 0px;
+  border: none;
+  outline: none;
+  font-size: 40px;
+  background: transparent;
+  color: white;
+  margin: 15px;
+}
+
+.icon {
+  vertical-align: top;
+}
+
+button:hover {
+  transform: scale(1.04);
+}
+button:active {
+  transform: scale(0.98);
+}
+
+.timer-container span {
+  display: inline-block;
+  width: 30px;
+  font-size: 20px;
+}
+.clock-container span {
+  font-size: 80px;
+}
